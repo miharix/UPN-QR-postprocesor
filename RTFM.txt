@@ -1,0 +1,18 @@
+V mapo Obdelaj shrani
+
+- PDF datoteko z opomini imenovano opomini.pdf
+! Vsak opomin naj ne bo daljši kot 1 stran
+
+- xlsx datoteko s seznamom polj za UPN
+Ime_Priimek	Naslov	Pošta	Mesto	Znesek	Koda_namena	Namen_placila	Rok_placila	Referenca_prejemnika
+
+Dvoklikni dodaj_QR_spodaj.py
+
+Počakaj da konzolno okno zgine.
+
+v mapi Dodan_QR boš našla vse opomine z dodano QR kodo.
+
+ČE konzolno okno NE zgine, dobro poglej kako napako javlja 
+
+PAZI program ne preverja vrstnega reda
+Stran 1 opomina -> dobi QR z podatki 1 vrstice excela itd.. 
